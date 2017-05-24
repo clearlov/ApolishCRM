@@ -1985,7 +1985,7 @@ Vtiger_Edit_Js("Inventory_Edit_Js",{
 	 */
     registerBasicEvents : function(container) {
 		this._super(container);
-		this.registerReferenceSelectionEvent(container);
+		// this.registerReferenceSelectionEvent(container);
 	},
     
     registerEvents: function(){

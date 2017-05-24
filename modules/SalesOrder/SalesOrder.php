@@ -26,8 +26,10 @@ class SalesOrder extends CRMEntity {
 
 	var $table_name = "vtiger_salesorder";
 	var $table_index= 'salesorderid';
-	var $tab_name = Array('vtiger_crmentity','vtiger_salesorder','vtiger_sobillads','vtiger_soshipads','vtiger_salesordercf','vtiger_invoice_recurring_info','vtiger_inventoryproductrel');
-	var $tab_name_index = Array('vtiger_crmentity'=>'crmid','vtiger_salesorder'=>'salesorderid','vtiger_sobillads'=>'sobilladdressid','vtiger_soshipads'=>'soshipaddressid','vtiger_salesordercf'=>'salesorderid','vtiger_invoice_recurring_info'=>'salesorderid','vtiger_inventoryproductrel'=>'id');
+	// var $tab_name = Array('vtiger_crmentity','vtiger_salesorder','vtiger_sobillads','vtiger_soshipads','vtiger_salesordercf','vtiger_invoice_recurring_info','vtiger_inventoryproductrel');
+	// var $tab_name_index = Array('vtiger_crmentity'=>'crmid','vtiger_salesorder'=>'salesorderid','vtiger_sobillads'=>'sobilladdressid','vtiger_soshipads'=>'soshipaddressid','vtiger_salesordercf'=>'salesorderid','vtiger_invoice_recurring_info'=>'salesorderid','vtiger_inventoryproductrel'=>'id');
+	var $tab_name = Array('vtiger_crmentity','vtiger_salesorder','vtiger_salesordercf','vtiger_inventoryproductrel');
+	var $tab_name_index = Array('vtiger_crmentity'=>'crmid','vtiger_salesorder'=>'salesorderid','vtiger_salesordercf'=>'salesorderid','vtiger_inventoryproductrel'=>'id');
 	/**
 	 * Mandatory table for supporting custom fields.
 	 */

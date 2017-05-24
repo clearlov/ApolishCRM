@@ -139,10 +139,10 @@ class Inventory_Record_Model extends Vtiger_Record_Model {
 	public function setParentRecordData(Vtiger_Record_Model $parentRecordModel) {
 		$userModel = Users_Privileges_Model::getCurrentUserPrivilegesModel();
 		$moduleName = $parentRecordModel->getModuleName();
-
+// p($moduleName);die;
 		$data = array();
 		$fieldMappingList = $parentRecordModel->getInventoryMappingFields();
-
+// p($parentRecordModel);die;
 		foreach ($fieldMappingList as $fieldMapping) {
 			$parentField = $fieldMapping['parentField'];
 			$inventoryField = $fieldMapping['inventoryField'];

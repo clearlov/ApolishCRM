@@ -16,9 +16,9 @@ Inventory_Edit_Js("SalesOrder_Edit_Js",{},{
 		this._super(container);
 		var thisInstance = this;
 		
-		jQuery('input[name="account_id"]', container).on(Vtiger_Edit_Js.referenceSelectionEvent, function(e, data){
-			thisInstance.referenceSelectionEventHandler(data, container);
-		});
+		// jQuery('input[name="account_id"]', container).on(Vtiger_Edit_Js.referenceSelectionEvent, function(e, data){
+		// 	thisInstance.referenceSelectionEventHandler(data, container);
+		// });
 	},
 
 	/**
@@ -164,7 +164,7 @@ Inventory_Edit_Js("SalesOrder_Edit_Js",{},{
 		this._super();
 		this.registerEventForEnablingRecurrence();
 		this.registerForTogglingBillingandShippingAddress();
-		this.registerEventForCopyAddress();
+		// this.registerEventForCopyAddress();
 	}
 });
 
