@@ -38,7 +38,7 @@
 	</head>
 	<body>
 		<div class="container-fluid login-container">
-			<div class="row-fluid">
+			<!-- <div class="row-fluid">
 				<div class="span3">
 					<div class="logo"><img src="layouts/vlayout/skins/images/logo.png">
 					<br />
@@ -53,13 +53,13 @@
 						<a href="https://discussions.vtiger.com/">Vtiger Forums</a> 
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="row-fluid">
 				<div class="span12">
 					<div class="content-wrapper">
 						<div class="container-fluid">
 							<div class="row-fluid">
-								<div class="span6">
+								<!-- <div class="span6">
 									<div class="carousal-container">
 										<div><h2> Get more out of Vtiger </h2></div>
 										<ul class="bxslider">
@@ -95,8 +95,8 @@
 											</li>
 										</ul>
 									</div>
-								</div>
-								<div class="span6">
+								</div> -->
+								<div class="span6" style="margin:0 auto;margin-left:25%;margin-top:5%;">
 									<div class="login-area">
 										<div class="login-box" id="loginDiv">
 											<div class="">
@@ -146,7 +146,7 @@
 												<img src='//stats.vtiger.com/stats.php?uid={$APPUNIQUEKEY}&v={$CURRENT_VERSION}&type=U' alt='' title='' border=0 width='1px' height='1px'>
 											</form>
 											<div class="login-subscript">
-												<small> Powered by vtiger CRM {$CURRENT_VERSION}</small>
+												<!-- <small> Powered by vtiger CRM {$CURRENT_VERSION}</small> -->
 											</div>
 				</div>
 										
@@ -184,7 +184,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="navbar navbar-fixed-bottom">
+		<!-- <div class="navbar navbar-fixed-bottom">
 			<div class="navbar-inner">
 				<div class="container-fluid">
 					<div class="row-fluid">
@@ -208,7 +208,7 @@
 					</div>   
 				</div>    
 			</div>   
-		</div>
+		</div> -->
 	</body>
 	<script>
 		jQuery(document).ready(function(){
