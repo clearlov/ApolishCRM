@@ -45,8 +45,9 @@ $languageStrings = array(
 	'Other Country' => '国家',
 	'Other Po Box' => '邮政信箱',
 	'Contact Image' => '联系人图片',		
-	'Kin Ship'	=>	'与学生的关系',
-	'Last Name'	=>	'姓名',	
+	'Contact Relation'	=>	'与学生的关系',
+	'Last Name'	=>	'姓名',
+		
 			
 	//Added for Picklist Values
 	'Mr.'=>'先生',

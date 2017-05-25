@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2017-04-14 09:22:18
+<?php /* Smarty version Smarty-3.1.7, created on 2017-05-25 11:09:26
          compiled from "/usr/local/var/www/htdocs/crm/vtigerd/includes/runtime/../../layouts/vlayout/modules/Users/ListViewContents.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:76956901058f094ca4ec3b6-95967819%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '09a3243d35d709d9b0f98399279272bb0e436939' => 
     array (
       0 => '/usr/local/var/www/htdocs/crm/vtigerd/includes/runtime/../../layouts/vlayout/modules/Users/ListViewContents.tpl',
-      1 => 1492156652,
+      1 => 1493262808,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_58f094ca5e757',
   'variables' => 
   array (
     'LISTVIEW_ENTRIES_COUNT' => 0,
@@ -47,8 +49,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'SINGLE_MODULE' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_58f094ca5e757',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_58f094ca5e757')) {function content_58f094ca5e757($_smarty_tpl) {?>
 <input type="hidden" id="listViewEntriesCount" value="<?php echo $_smarty_tpl->tpl_vars['LISTVIEW_ENTRIES_COUNT']->value;?>

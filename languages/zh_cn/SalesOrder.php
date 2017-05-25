@@ -51,7 +51,7 @@ $languageStrings = array(
     'IsSignContract' => '是否签署合同',
     'Is Preferential' => '是否优惠',
     'Payment' => '支付方式',
-    'Contract No' => '合同编号',
+    'ContractNo' => '合同编号',
     'Start Date' => '起始日期',
 
     'Net 30 days' => '30 天', 

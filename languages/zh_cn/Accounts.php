@@ -62,6 +62,9 @@ $languageStrings = array(
 	'Is Star User'	=> '星标客户',
 	'State' => '状态',
 	'Study Abroad Intention' => '留学意向',
+	'Male' => '男',
+	'Female' => '女',
+	'Wechat' => '微信号',
 );
 
 $jsLanguageStrings = array(
