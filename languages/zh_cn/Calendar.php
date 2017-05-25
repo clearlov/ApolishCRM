@@ -12,7 +12,7 @@
  * All Rights Reserved. 
  *************************************************************************************/
 $languageStrings = array(
-	'Activity Type'=>'类型',
+	'Activity Type'=>'形式',
 	'Call' => '电话',
 	'Completed' => '已完成',	
 	'Daily'=>'每天',

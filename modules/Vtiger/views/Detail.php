@@ -116,6 +116,7 @@ class Vtiger_Detail_View extends Vtiger_Index_View {
 
         $picklistDependencyDatasource=  Vtiger_DependencyPicklist::getPicklistDependencyDatasource($moduleName); 
         $viewer->assign('PICKLIST_DEPENDENCY_DATASOURCE',Zend_Json::encode($picklistDependencyDatasource));
+		// echo "123";die;
 		if($display) {
 			$this->preProcessDisplay($request);
 		}
@@ -133,7 +134,6 @@ class Vtiger_Detail_View extends Vtiger_Index_View {
 		}
 
 		$currentUserModel = Users_Record_Model::getCurrentUserModel();
-
 		if ($currentUserModel->get('default_record_view') === 'Summary') {
 			echo $this->showModuleBasicView($request);
 		} else {

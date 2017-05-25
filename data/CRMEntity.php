@@ -629,6 +629,9 @@ class CRMEntity {
 			// p($update_params);die;
 		} else {
 			$sql1 = "insert into $table_name(" . implode(",", $column) . ") values(" . generateQuestionMarks($value) . ")";
+		// p($sql1);
+		// p($value);
+		// die;	
 			$adb->pquery($sql1, $value);
 		}
 	}

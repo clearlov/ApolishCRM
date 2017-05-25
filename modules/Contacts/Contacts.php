@@ -29,8 +29,8 @@ class Contacts extends CRMEntity {
 	// var $tab_name = Array('vtiger_crmentity','vtiger_contactdetails','vtiger_contactaddress','vtiger_contactsubdetails','vtiger_contactscf','vtiger_customerdetails');
 	// var $tab_name_index = Array('vtiger_crmentity'=>'crmid','vtiger_contactdetails'=>'contactid','vtiger_contactaddress'=>'contactaddressid','vtiger_contactsubdetails'=>'contactsubscriptionid','vtiger_contactscf'=>'contactid','vtiger_customerdetails'=>'customerid');
 	
-	var $tab_name = Array('vtiger_crmentity','vtiger_contactdetails','vtiger_contactscf');
-	var $tab_name_index = Array('vtiger_crmentity'=>'crmid','vtiger_contactdetails'=>'contactid','vtiger_contactscf'=>'contactid');
+	var $tab_name = Array('vtiger_crmentity','vtiger_contactdetails','vtiger_contactscf','vtiger_customerdetails');
+	var $tab_name_index = Array('vtiger_crmentity'=>'crmid','vtiger_contactdetails'=>'contactid','vtiger_contactscf'=>'contactid','vtiger_customerdetails'=>'customerid');
 
 	/**
 	 * Mandatory table for supporting custom fields.
